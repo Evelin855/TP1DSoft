@@ -1,0 +1,106 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    background-color: #f4f6f8; 
+    color: #333; 
+} 
+
+header { 
+    background-color: #222; 
+    color: white; 
+    text-align: center; 
+    padding: 30px 20px; 
+} 
+
+header h1 { 
+    margin-bottom: 5px; 
+} 
+
+nav { 
+    background-color: #444; 
+    padding: 12px; 
+    text-align: center; 
+} 
+
+nav a { 
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+
+nav a:hover { 
+    text-decoration: underline; 
+} 
+
+section { 
+    background-color: white; 
+    padding: 25px; 
+    margin: 25px auto; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    max-width: 900px; 
+} 
+
+h2 { 
+    border-bottom: 2px solid #222; 
+    padding-bottom: 5px; 
+    margin-top: 0; 
+} 
+
+.contenedor-flex { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+} 
+
+.contenedor-flex article { 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    flex: 1; 
+    min-width: 250px; 
+    border-radius: 6px; 
+    background-color: #fafafa; 
+} 
+
+img { 
+    border-radius: 10px; 
+    display: block; 
+    margin: 15px auto; 
+} 
+
+ul { 
+    padding-left: 20px; 
+} 
+
+li { 
+    margin-bottom: 6px; 
+} 
+
+input, textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+
+input[type="submit"] { 
+    background-color: #222; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+} 
+
+input[type="submit"]:hover { 
+    background-color: #444; 
+} 
+
+footer { 
+    background-color: #222; 
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+    margin-top: 20px; 
+} 
