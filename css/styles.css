@@ -77,6 +77,36 @@ li {
     margin-bottom: 6px; 
 } 
 
+.lista-redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.lista-redes li {
+    text-align: center;
+}
+
+.lista-redes a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.lista-redes img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 8px;
+}
+
+
+.lista-redes a:hover {
+    transform: scale(1.1);
+}
+
 input, textarea { 
     width: 100%; 
     padding: 8px; 
