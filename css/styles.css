@@ -29,9 +29,13 @@ nav a {
     font-weight: bold; 
 } 
 
-nav a:hover { 
-    text-decoration: underline; 
-} 
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #88879c;
+}
 
 section { 
     background-color: white; 
