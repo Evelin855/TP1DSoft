@@ -106,11 +106,6 @@ li {
     margin: 0 auto 8px;
 }
 
-
-.lista-redes a:hover {
-    transform: scale(1.1);
-}
-
 input, textarea { 
     width: 100%; 
     padding: 8px; 
